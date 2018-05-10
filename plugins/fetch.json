@@ -1,0 +1,18 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com-zendrive-phonegap-sdk": {
+    "source": {
+      "type": "local",
+      "path": "/Users/zieglerc/IdeaProjects/zenDriveTest/node_modules/com-zendrive-phonegap-sdk"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
