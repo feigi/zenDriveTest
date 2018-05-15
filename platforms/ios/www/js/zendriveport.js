@@ -50,15 +50,8 @@ var ZenDrivePort = {
         
         Zendrive.setup(config, new Zendrive.ZendriveCallback(this.processStartOfDrive,
             this.processEndOfDrive, this.processLocationDenied), function () {
-
                 console.log("Setup done!");
                 alert('Setup done');
-
-                if (!window.localStorage.getItem('zendrive_trackingId') || window.localStorage.getItem('zendrive_trackingId') == '') {
-                    //Inicio do zendrive automatico
-                    ZenDrivePort.callStartDrive();
-                }
-
             },
             function (error) {
                 alert('Setup failed');

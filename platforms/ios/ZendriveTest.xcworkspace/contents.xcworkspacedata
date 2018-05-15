@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../../Downloads/20180514123910-87202-data.gpx">
-   </FileRef>
-   <FileRef
       location = "group:ZendriveTest.xcodeproj">
    </FileRef>
    <FileRef
