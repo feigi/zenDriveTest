@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../www/js/zendriveport.js"
+            timestampString = "548163608.674607"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZendriveTest/Plugins/com-zendrive-phonegap-sdk/ZendriveCordovaPlugin.m"
+            timestampString = "548346367.3612601"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-startDrive:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ZendriveCordovaPlugin startDrive:]"
+                  moduleName = "ZendriveTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zieglerc/IdeaProjects/zenDriveTest/platforms/ios/ZendriveTest/Plugins/com-zendrive-phonegap-sdk/ZendriveCordovaPlugin.m"
+                  timestampString = "548346367.550841"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[ZendriveCordovaPlugin startDrive:]_block_invoke"
+                  moduleName = "ZendriveTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zieglerc/IdeaProjects/zenDriveTest/platforms/ios/ZendriveTest/Plugins/com-zendrive-phonegap-sdk/ZendriveCordovaPlugin.m"
+                  timestampString = "548346367.557462"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.69"
+                  moduleName = "ZendriveTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zieglerc/IdeaProjects/zenDriveTest/platforms/ios/ZendriveTest/Plugins/com-zendrive-phonegap-sdk/ZendriveCordovaPlugin.m"
+                  timestampString = "548346367.5641789"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZendriveTest/Plugins/com-zendrive-phonegap-sdk/ZendriveCordovaPlugin.m"
+            timestampString = "548346367.3620861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "-processStartOfDrive:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -21,8 +21,8 @@ var app = {
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
         document.getElementById("setup").addEventListener("click", this.setup, false);
-        document.getElementById("start-tracking").addEventListener("click", this.startDrive, false);
-        document.getElementById("stop-tracking").addEventListener("click", this.stopDrive, false);
+/*         document.getElementById("start-tracking").addEventListener("click", this.startDrive, false);
+        document.getElementById("stop-tracking").addEventListener("click", this.stopDrive, false); */
     },
 
     // deviceready Event Handler
