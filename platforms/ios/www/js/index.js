@@ -20,6 +20,9 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+        document.getElementById("setup").addEventListener("click", this.setup, false);
+        document.getElementById("start-tracking").addEventListener("click", this.startDrive, false);
+        document.getElementById("stop-tracking").addEventListener("click", this.stopDrive, false);
     },
 
     // deviceready Event Handler
@@ -40,6 +43,21 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+    },
+
+    setup: function() {
+        console.log('Setup');
+        ZenDrivePort.callSetup();
+    },
+
+    startDrive: function() {
+        console.log('Start Drive');
+        ZenDrivePort.callStartDrive();
+    },
+    
+    stopDrive: function () {
+        console.log('Stop Drive'); 
+        ZenDrivePort.callStopDrive();
     }
 };
 

@@ -29,9 +29,21 @@
               "count": 1
             }
           ],
+          "NSLocationWhenInUseUsageDescription": [
+            {
+              "xml": "<string>This app requires background location tracking</string>",
+              "count": 1
+            }
+          ],
+          "NSLocationAlwaysAndWhenInUseUsageDescription": [
+            {
+              "xml": "<string>This app requires background location tracking</string>",
+              "count": 1
+            }
+          ],
           "NSAppTransportSecurity": [
             {
-              "xml": "<dict><key>NSAllowsArbitraryLoads</key><true /></dict>",
+              "xml": "<dict><key>NSExceptionDomains</key><dict><key>amazonaws.com</key><dict><key>NSThirdPartyExceptionMinimumTLSVersion</key><string>TLSv1.0</string><key>NSThirdPartyExceptionRequiresForwardSecrecy</key><false /><key>NSIncludesSubdomains</key><true /></dict><key>amazonaws.com.cn</key><dict><key>NSThirdPartyExceptionMinimumTLSVersion</key><string>TLSv1.0</string><key>NSThirdPartyExceptionRequiresForwardSecrecy</key><false /><key>NSIncludesSubdomains</key><true /></dict></dict></dict>",
               "count": 1
             }
           ]
@@ -41,10 +53,10 @@
   },
   "installed_plugins": {
     "com-zendrive-phonegap-sdk": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "org.core-concepts.zendrivetest"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "org.core-concepts.zendrivetest"
     }
   },
   "dependent_plugins": {},

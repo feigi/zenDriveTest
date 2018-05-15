@@ -1,0 +1,13 @@
+{
+    "ios": {
+        "debug": {
+            "codeSignIdentity": "iPhone Developer",
+            "developmentTeam": "X26RGX8F7N",
+            "packageType": "development",
+            "automaticProvisioning": true,
+            "buildFlag": [
+                "ENABLE_BITCODE = NO"
+            ]
+        }
+    }
+}

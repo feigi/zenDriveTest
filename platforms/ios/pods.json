@@ -1,0 +1,8 @@
+{
+    "ZendriveSDK": {
+        "name": "ZendriveSDK",
+        "type": "podspec",
+        "spec": ":git => 'https://bitbucket.org/zendrive-root/zendrive_cocoapod.git', :tag => '5.3.0'",
+        "count": 1
+    }
+}

@@ -6,6 +6,7 @@ var ZenDrivePort = {
 
     processStartOfDrive: function (zendriveDriveStartInfo) {
         console.log("processStartOfDrive: " + JSON.stringify(zendriveDriveStartInfo));
+        alert('Started tracking');
     },
 
     processActiveDrive: function (zendriveActiveDriveInfo) {
@@ -18,6 +19,7 @@ var ZenDrivePort = {
 
     processEndOfDrive: function (zendriveDriveInfo) {
         console.log("processEndOfDrive: " + JSON.stringify(zendriveDriveInfo));
+        alert('Stopped tracking');
     },
 
     processLocationDenied: function () {
@@ -26,41 +28,33 @@ var ZenDrivePort = {
 
     callSetup: function () {
 
-
-        var empresa = window.localStorage.getItem('empresa');
-        var user = window.localStorage.getItem('user');
-        var nome = window.localStorage.getItem('nome');
-
+        var company = 'pullup';
+        var user = 'zieglerc';
+        var name = 'Christian Ziegler';
 
         // Unique id of the driver using the app.
-        var driverId = empresa + "-" + user;
-
-
+        var driverId = company + "-" + user;
+        
         var config = new Zendrive.ZendriveConfiguration(applicationKey, driverId);
         var driverAttributes = new Zendrive.ZendriveDriverAttributes();
-        driverAttributes.firstName = nome;
+        driverAttributes.firstName = name;
         //driverAttributes.lastName = "";
-        //driverAttributes.email = "";
-        driverAttributes.group = 'empresa-' + empresa;
+        driverAttributes.email = "";
+        driverAttributes.group = 'company-' + company;
         //driverAttributes.phoneNumber = '';
 
-        //driverAttributes.setCustomAttribute("custom_key", "custom_value");
         config.driverAttributes = driverAttributes;
         config.driveDetectionMode = Zendrive.ZendriveDriveDetectionMode.ZendriveDriveDetectionModeAutoON;
 
+        console.log('Zendrive config: ' + JSON.stringify(config));
+        
         Zendrive.setup(config, new Zendrive.ZendriveCallback(this.processStartOfDrive,
             this.processEndOfDrive, this.processLocationDenied), function () {
-
                 console.log("Setup done!");
-
-                if (!window.localStorage.getItem('zendrive_trackingId') || window.localStorage.getItem('zendrive_trackingId') == '') {
-                    //Inicio do zendrive automatico
-                    ZenDrivePort.callStartDrive();
-                }
-
+                alert('Setup done');
             },
             function (error) {
-
+                alert('Setup failed');
                 console.log("Setup failed: " + error);
             });
     },

@@ -8,10 +8,10 @@
   },
   "installed_plugins": {
     "com-zendrive-phonegap-sdk": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "org.core-concepts.zendrivetest"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "org.core-concepts.zendrivetest"
     }
   },
   "dependent_plugins": {}

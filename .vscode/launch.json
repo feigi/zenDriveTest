@@ -82,6 +82,8 @@
             "name": "Attach to running iOS on simulator",
             "type": "cordova",
             "request": "attach",
+            "attachAttempts": 5,
+            "attachDelay": 5000,
             "platform": "ios",
             "target": "emulator",
             "port": 9220,
