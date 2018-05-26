@@ -21,8 +21,8 @@
             "com-zendrive-phonegap-sdk": {}
         },
         "platforms": [
-            "android",
-            "ios"
+            "ios",
+            "android"
         ]
     }
 }
