@@ -23,7 +23,7 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="com-zendrive-phonegap-sdk" spec="../zendrive-sdk-phonegap-plugin" />
+    <plugin name="com-zendrive-phonegap-sdk" spec="https://github.com/trackerup/zendrive-sdk-phonegap-plugin.git#0.1.0" />
     <engine name="ios" spec="^4.5.4" />
     <engine name="android" spec="^7.0.0" />
 </widget>
