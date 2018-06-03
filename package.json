@@ -10,15 +10,15 @@
     "author": "Christian Ziegler",
     "license": "Apache-2.0",
     "dependencies": {
-        "com-zendrive-phonegap-sdk": "git+https://github.com/trackerup/zendrive-sdk-phonegap-plugin.git#0.1.0",
         "cordova-android": "^7.0.0",
         "cordova-ios": "^4.5.4",
-        "cordova-plugin-whitelist": "^1.3.3"
+        "cordova-plugin-whitelist": "^1.3.3",
+        "zendrive-cordova-plugin": "git+https://github.com/trackerup/zendrive-sdk-phonegap-plugin.git#v0.1.1"
     },
     "cordova": {
         "plugins": {
-            "cordova-plugin-whitelist": {},
-            "com-zendrive-phonegap-sdk": {}
+            "com-zendrive-phonegap-sdk": {},
+            "cordova-plugin-whitelist": {}
         },
         "platforms": [
             "ios",
