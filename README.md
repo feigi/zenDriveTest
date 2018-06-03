@@ -7,7 +7,13 @@ A cordova app for testing the zen drive library
 ```
 sudo gem install cocoapods
 ```
-2. Install pods and build
+
+2. Install cordova platforms and plugins
+```
+cordova prepare
+```
+
+3. Install cocoapods and build
 Because of a bug in cordova-ios ([CB-12582](https://issues.apache.org/jira/browse/CB-12582)) the cocoa pods libary is not linked properly which is why we manually have to install the pods. cordova-ios@4.5.5 should contain a fix for this.
 
 ```
@@ -17,4 +23,4 @@ cd ../..
 cordova build // This will fail, however it is still necessary.
 ```
 
-3. Open platform/ios/ZendriveTest.xcworkspace
+4. Open platform/ios/ZendriveTest.xcworkspace in Xcode or platform/android in Android Studio
